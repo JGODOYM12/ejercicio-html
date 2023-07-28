@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Titillium+Web:ital,wght@0,200;0,300;1,300&family=Yellowtail&display=swap");
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .inicio {
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+
+}
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    z-index: 99;
+        }
+        .contenedor-header header{
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+    
